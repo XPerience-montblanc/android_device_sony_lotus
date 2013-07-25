@@ -40,6 +40,16 @@ PRODUCT_AAPT_PREF_CONFIG := mdpi
 PRODUCT_COPY_FILES += \
    device/sony/montblanc-common/prebuilt/logo-320x480.rle:root/logo.rle
 
+#XPEIENCE prebuilts
+PRODUCT_COPY_FILES += \
+    device/sony/lotus/prebuild/axperiau_ondemandax.ko:/system/lib/modules/axperiau_ondemandax.ko \
+	device/sony/lotus/prebuild/axperiau_pegasusq.ko:/system/lib/modules/axperiau_pegasusq.ko \
+	device/sony/lotus/prebuild/axperiau_sio_iosched.ko:/system/lib/modules/axperiau_sio_iosched.ko \
+	device/sony/lotus/prebuild/axperiau_smartass2.ko:/system/lib/modules/axperiau_smartass2.ko \
+	device/sony/lotus/prebuild/axperiau_vr_iosched.ko:/system/lib/modules/axperiau_vr_iosched.ko \
+	device/sony/lotus/prebuild/axperiau_lulzactiveq.ko:/system/lib/modules/axperiau_lulzactiveq.ko
+	
+   
 # Configuration scripts
 PRODUCT_COPY_FILES += \
    $(LOCAL_PATH)/config/dash.conf:system/etc/dash.conf \
