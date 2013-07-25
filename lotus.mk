@@ -42,12 +42,12 @@ PRODUCT_COPY_FILES += \
 
 #XPEIENCE prebuilts
 PRODUCT_COPY_FILES += \
-    device/sony/lotus/prebuild/axperiau_ondemandax.ko:/system/lib/modules/axperiau_ondemandax.ko \
-	device/sony/lotus/prebuild/axperiau_pegasusq.ko:/system/lib/modules/axperiau_pegasusq.ko \
-	device/sony/lotus/prebuild/axperiau_sio_iosched.ko:/system/lib/modules/axperiau_sio_iosched.ko \
-	device/sony/lotus/prebuild/axperiau_smartass2.ko:/system/lib/modules/axperiau_smartass2.ko \
-	device/sony/lotus/prebuild/axperiau_vr_iosched.ko:/system/lib/modules/axperiau_vr_iosched.ko \
-	device/sony/lotus/prebuild/axperiau_lulzactiveq.ko:/system/lib/modules/axperiau_lulzactiveq.ko
+   $(LOCAL_PATH)/prebuild/axperiau_ondemandax.ko:/system/lib/modules/axperiau_ondemandax.ko \
+	$(LOCAL_PATH)/prebuild/axperiau_pegasusq.ko:/system/lib/modules/axperiau_pegasusq.ko \
+	$(LOCAL_PATH)/prebuild/axperiau_sio_iosched.ko:/system/lib/modules/axperiau_sio_iosched.ko \
+	$(LOCAL_PATH)/prebuild/axperiau_smartass2.ko:/system/lib/modules/axperiau_smartass2.ko \
+	$(LOCAL_PATH)/prebuild/rng-core.ko:/system/lib/modules/rng-core.ko 
+	
 	
    
 # Configuration scripts
